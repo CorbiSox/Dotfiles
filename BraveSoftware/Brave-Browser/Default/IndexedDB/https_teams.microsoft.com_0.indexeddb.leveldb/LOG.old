@@ -1,0 +1,33 @@
+2024/09/14-17:43:21.033 d9d0 Reusing MANIFEST /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/14-17:43:21.034 d9d0 Recovering log #277
+2024/09/14-17:43:21.045 d9d0 Reusing old log /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000277.log 
+2024/09/14-17:43:21.807 d9dd Compacting 3@0 + 5@1 files
+2024/09/14-17:43:21.856 d9dd Generated table #284@0: 17800 keys, 2139693 bytes
+2024/09/14-17:43:21.883 d9dd Generated table #285@0: 2550 keys, 2118241 bytes
+2024/09/14-17:43:21.901 d9dd Generated table #286@0: 2634 keys, 2118607 bytes
+2024/09/14-17:43:21.926 d9dd Generated table #287@0: 897 keys, 2144068 bytes
+2024/09/14-17:43:21.960 d9dd Generated table #288@0: 893 keys, 2143500 bytes
+2024/09/14-17:43:21.989 d9dd Generated table #289@0: 3357 keys, 2072146 bytes
+2024/09/14-17:43:21.989 d9dd Compacted 3@0 + 5@1 files => 12736255 bytes
+2024/09/14-17:43:21.991 d9dd compacted to: files[ 0 6 5 0 0 0 0 ]
+2024/09/14-17:43:21.991 d9dd Delete type=2 #274
+2024/09/14-17:43:21.991 d9dd Delete type=2 #272
+2024/09/14-17:43:21.991 d9dd Delete type=2 #281
+2024/09/14-17:43:21.991 d9dd Delete type=2 #282
+2024/09/14-17:43:21.991 d9dd Delete type=2 #280
+2024/09/14-17:43:21.991 d9dd Delete type=2 #279
+2024/09/14-17:43:21.991 d9dd Delete type=2 #276
+2024/09/14-17:43:21.991 d9dd Delete type=2 #278
+2024/09/14-17:43:21.994 d9dd Compacting 1@1 + 1@2 files
+2024/09/14-17:43:22.039 d9dd Generated table #290@1: 2787 keys, 2121879 bytes
+2024/09/14-17:43:22.039 d9dd Compacted 1@1 + 1@2 files => 2121879 bytes
+2024/09/14-17:43:22.040 d9dd compacted to: files[ 0 5 5 0 0 0 0 ]
+2024/09/14-17:43:22.040 d9dd Delete type=2 #284
+2024/09/14-17:43:22.040 d9dd Delete type=2 #252
+2024/09/14-17:43:22.042 d9dd Compacting 1@1 + 1@2 files
+2024/09/14-17:43:22.073 d9dd Generated table #291@1: 2503 keys, 2121428 bytes
+2024/09/14-17:43:22.105 d9dd Generated table #292@1: 2834 keys, 2118684 bytes
+2024/09/14-17:43:22.105 d9dd Compacted 1@1 + 1@2 files => 4240112 bytes
+2024/09/14-17:43:22.106 d9dd compacted to: files[ 0 4 6 0 0 0 0 ]
+2024/09/14-17:43:22.107 d9dd Delete type=2 #290
+2024/09/14-17:43:22.107 d9dd Delete type=2 #285

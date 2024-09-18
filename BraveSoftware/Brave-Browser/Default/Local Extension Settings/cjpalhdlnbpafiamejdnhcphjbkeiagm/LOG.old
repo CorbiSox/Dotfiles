@@ -1,0 +1,36 @@
+2024/09/17-17:05:04.643 e21 Reusing MANIFEST /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2024/09/17-17:05:04.644 e21 Recovering log #193
+2024/09/17-17:05:04.644 e21 Reusing old log /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000193.log 
+2024/09/17-19:05:43.229 e21 Level-0 table #197: started
+2024/09/17-19:05:43.239 e21 Level-0 table #197: 4164710 bytes OK
+2024/09/17-19:05:43.241 e21 Delete type=0 #193
+2024/09/17-19:06:40.161 e21 Level-0 table #199: started
+2024/09/17-19:06:40.214 e21 Level-0 table #199: 8807856 bytes OK
+2024/09/17-19:06:40.216 e21 Delete type=0 #196
+2024/09/17-19:06:40.218 e21 Compacting 4@0 + 3@1 files
+2024/09/17-19:06:40.227 e21 Generated table #200@0: 4 keys, 2482927 bytes
+2024/09/17-19:06:40.239 e21 Generated table #201@0: 7 keys, 2736126 bytes
+2024/09/17-19:06:40.248 e21 Generated table #202@0: 2 keys, 2297333 bytes
+2024/09/17-19:06:40.302 e21 Generated table #203@0: 2 keys, 4855495 bytes
+2024/09/17-19:06:40.307 e21 Generated table #204@0: 8 keys, 1084583 bytes
+2024/09/17-19:06:40.307 e21 Compacted 4@0 + 3@1 files => 13456464 bytes
+2024/09/17-19:06:40.309 e21 compacted to: files[ 0 5 5 0 0 0 0 ]
+2024/09/17-19:06:40.309 e21 Delete type=2 #185
+2024/09/17-19:06:40.309 e21 Delete type=2 #184
+2024/09/17-19:06:40.309 e21 Delete type=2 #186
+2024/09/17-19:06:40.309 e21 Delete type=2 #199
+2024/09/17-19:06:40.309 e21 Delete type=2 #194
+2024/09/17-19:06:40.309 e21 Delete type=2 #192
+2024/09/17-19:06:40.309 e21 Delete type=2 #197
+2024/09/17-19:06:40.312 e21 Compacting 1@1 + 1@2 files
+2024/09/17-19:06:40.324 e21 Generated table #205@1: 8 keys, 2787188 bytes
+2024/09/17-19:06:40.324 e21 Compacted 1@1 + 1@2 files => 2787188 bytes
+2024/09/17-19:06:40.325 e21 compacted to: files[ 0 4 5 0 0 0 0 ]
+2024/09/17-19:06:40.325 e21 Delete type=2 #156
+2024/09/17-19:06:40.325 e21 Delete type=2 #201
+2024/09/17-19:06:40.326 e21 Compacting 1@1 + 1@2 files
+2024/09/17-19:06:40.337 e21 Generated table #206@1: 6 keys, 2730827 bytes
+2024/09/17-19:06:40.338 e21 Compacted 1@1 + 1@2 files => 2730827 bytes
+2024/09/17-19:06:40.339 e21 compacted to: files[ 0 3 5 0 0 0 0 ]
+2024/09/17-19:06:40.339 e21 Delete type=2 #172
+2024/09/17-19:06:40.339 e21 Delete type=2 #202

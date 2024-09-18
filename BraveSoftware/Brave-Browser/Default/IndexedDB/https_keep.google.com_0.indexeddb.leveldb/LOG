@@ -1,0 +1,6 @@
+2024/09/13-07:49:16.728 acad Creating DB /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_keep.google.com_0.indexeddb.leveldb since it was missing.
+2024/09/13-07:49:16.741 acad Reusing MANIFEST /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_keep.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/13-11:50:19.202 acae Level-0 table #5: started
+2024/09/13-11:50:19.203 acae Level-0 table #5: 3855 bytes OK
+2024/09/13-11:50:19.205 acae Delete type=0 #3
+2024/09/13-11:50:19.206 acae Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,24 @@
+2024/09/17-21:25:28.009 4 Reusing MANIFEST /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2024/09/17-21:25:28.013 4 Recovering log #786
+2024/09/17-21:25:28.013 4 Reusing old log /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000786.log 
+2024/09/17-21:40:36.140 4 Level-0 table #790: started
+2024/09/17-21:40:36.155 4 Level-0 table #790: 21159 bytes OK
+2024/09/17-21:40:36.162 4 Delete type=0 #786
+2024/09/17-21:57:45.686 4 Level-0 table #792: started
+2024/09/17-21:57:45.697 4 Level-0 table #792: 22812 bytes OK
+2024/09/17-21:57:45.700 4 Delete type=0 #789
+2024/09/17-21:57:45.701 4 Compacting 4@0 + 1@1 files
+2024/09/17-21:57:45.731 4 Generated table #793@0: 1765 keys, 1777215 bytes
+2024/09/17-21:57:45.731 4 Compacted 4@0 + 1@1 files => 1777215 bytes
+2024/09/17-21:57:45.733 4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/17-21:57:45.734 4 Delete type=2 #790
+2024/09/17-21:57:45.734 4 Delete type=2 #792
+2024/09/17-21:57:45.734 4 Delete type=2 #783
+2024/09/17-21:57:45.734 4 Delete type=2 #787
+2024/09/17-21:57:45.734 4 Delete type=2 #785
+2024/09/17-22:02:45.688 4 Level-0 table #795: started
+2024/09/17-22:02:45.700 4 Level-0 table #795: 16446 bytes OK
+2024/09/17-22:02:45.704 4 Delete type=0 #791
+2024/09/17-22:08:51.189 5 Level-0 table #797: started
+2024/09/17-22:08:51.200 5 Level-0 table #797: 30428 bytes OK
+2024/09/17-22:08:51.203 5 Delete type=0 #794

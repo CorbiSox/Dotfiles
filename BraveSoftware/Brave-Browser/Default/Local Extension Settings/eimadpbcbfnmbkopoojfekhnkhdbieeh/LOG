@@ -1,0 +1,18 @@
+2024/09/17-21:25:28.353 e0c Reusing MANIFEST /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/eimadpbcbfnmbkopoojfekhnkhdbieeh/MANIFEST-000001
+2024/09/17-21:25:28.354 e0c Recovering log #274
+2024/09/17-21:25:28.355 e0c Reusing old log /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/Local Extension Settings/eimadpbcbfnmbkopoojfekhnkhdbieeh/000274.log 
+2024/09/17-21:52:45.760 e0c Level-0 table #278: started
+2024/09/17-21:52:45.768 e0c Level-0 table #278: 1849055 bytes OK
+2024/09/17-21:52:45.770 e0c Delete type=0 #274
+2024/09/17-21:56:45.284 e00 Level-0 table #280: started
+2024/09/17-21:56:45.304 e00 Level-0 table #280: 1863105 bytes OK
+2024/09/17-21:56:45.306 e00 Delete type=0 #277
+2024/09/17-21:56:45.307 e00 Compacting 4@0 + 1@1 files
+2024/09/17-21:56:45.315 e00 Generated table #281@0: 5 keys, 105984 bytes
+2024/09/17-21:56:45.315 e00 Compacted 4@0 + 1@1 files => 105984 bytes
+2024/09/17-21:56:45.317 e00 compacted to: files[ 0 1 0 0 0 0 0 ]
+2024/09/17-21:56:45.317 e00 Delete type=2 #275
+2024/09/17-21:56:45.317 e00 Delete type=2 #280
+2024/09/17-21:56:45.317 e00 Delete type=2 #273
+2024/09/17-21:56:45.317 e00 Delete type=2 #271
+2024/09/17-21:56:45.317 e00 Delete type=2 #278

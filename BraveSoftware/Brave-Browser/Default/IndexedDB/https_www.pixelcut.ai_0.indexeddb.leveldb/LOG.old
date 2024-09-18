@@ -1,0 +1,13 @@
+2024/09/17-00:56:12.035 e93 Reusing MANIFEST /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.pixelcut.ai_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/17-00:56:12.040 e93 Recovering log #7
+2024/09/17-00:56:12.041 e93 Reusing old log /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.pixelcut.ai_0.indexeddb.leveldb/000007.log 
+2024/09/17-00:56:12.139 e95 Level-0 table #11: started
+2024/09/17-00:56:12.147 e95 Level-0 table #11: 1443 bytes OK
+2024/09/17-00:56:12.155 e95 Delete type=0 #7
+2024/09/17-00:56:12.156 e93 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 425 : 1
+2024/09/17-00:56:12.156 e93 Compacting 1@0 + 1@1 files
+2024/09/17-00:56:12.166 e93 Generated table #12@0: 149 keys, 10919 bytes
+2024/09/17-00:56:12.167 e93 Compacted 1@0 + 1@1 files => 10919 bytes
+2024/09/17-00:56:12.172 e93 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/09/17-00:56:12.173 e93 Delete type=2 #11
+2024/09/17-00:56:12.174 e93 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 425 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

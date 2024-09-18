@@ -1,0 +1,34 @@
+General {
+  output_format = "i3bar"
+  colors = true
+  interval = 5
+}
+
+order += "disk /"
+order += "wireless wlp0s20f3"
+order += "ethernet enx5c857e361a4a"
+order += "battery 0"
+order += "tztime local"
+
+tztime local {
+  format = "%Y-%m-%d %I:%M "
+}
+
+battery 0 {
+  format = "%status %percentage"
+
+}
+
+disk "/" {
+  format = "%free"
+}
+
+wireless wlp0s20f3 {
+                   format_up = "W: (%quality at %essid, %bitrate) %ip"
+                   format_down = "W: down"
+           }
+
+ethernet enx5c857e361a4a {
+  format_up = "E: %ip (%speed)"
+  format_down = "E: down"
+}

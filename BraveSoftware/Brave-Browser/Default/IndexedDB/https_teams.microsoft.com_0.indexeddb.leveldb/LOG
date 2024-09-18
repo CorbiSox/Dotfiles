@@ -1,0 +1,13 @@
+2024/09/14-18:10:21.079 e30e Reusing MANIFEST /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/14-18:10:21.080 e30e Recovering log #277
+2024/09/14-18:10:21.092 e30e Reusing old log /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teams.microsoft.com_0.indexeddb.leveldb/000277.log 
+2024/09/14-18:10:25.002 e30f Compacting 1@1 + 3@2 files
+2024/09/14-18:10:25.032 e30f Generated table #294@1: 2843 keys, 2124847 bytes
+2024/09/14-18:10:25.080 e30f Generated table #295@1: 883 keys, 2143065 bytes
+2024/09/14-18:10:25.123 e30f Generated table #296@1: 460 keys, 1095919 bytes
+2024/09/14-18:10:25.123 e30f Compacted 1@1 + 3@2 files => 5363831 bytes
+2024/09/14-18:10:25.125 e30f compacted to: files[ 0 3 6 0 0 0 0 ]
+2024/09/14-18:10:25.126 e30f Delete type=2 #287
+2024/09/14-18:10:25.126 e30f Delete type=2 #200
+2024/09/14-18:10:25.126 e30f Delete type=2 #261
+2024/09/14-18:10:25.126 e30f Delete type=2 #292
