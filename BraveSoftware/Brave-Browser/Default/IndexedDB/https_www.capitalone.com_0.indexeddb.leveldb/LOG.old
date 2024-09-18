@@ -1,6 +1,0 @@
-2024/09/13-15:36:20.594 894 Creating DB /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.capitalone.com_0.indexeddb.leveldb since it was missing.
-2024/09/13-15:36:20.597 894 Reusing MANIFEST /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.capitalone.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/13-15:36:24.093 895 Level-0 table #5: started
-2024/09/13-15:36:24.094 895 Level-0 table #5: 1167 bytes OK
-2024/09/13-15:36:24.096 895 Delete type=0 #3
-2024/09/13-15:36:24.096 895 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

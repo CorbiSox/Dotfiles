@@ -1,6 +1,0 @@
-2024/09/14-13:01:59.966 894 Creating DB /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.pewresearch.org_0.indexeddb.leveldb since it was missing.
-2024/09/14-13:01:59.979 894 Reusing MANIFEST /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.pewresearch.org_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/14-13:05:16.932 895 Level-0 table #5: started
-2024/09/14-13:05:16.937 895 Level-0 table #5: 1115 bytes OK
-2024/09/14-13:05:16.944 895 Delete type=0 #3
-2024/09/14-13:05:16.945 895 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
