@@ -1,7 +1,0 @@
-2024/09/14-14:07:40.327 894 Reusing MANIFEST /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.textron.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/14-14:07:40.327 894 Recovering log #6
-2024/09/14-14:07:40.327 894 Reusing old log /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.textron.com_0.indexeddb.leveldb/000006.log 
-2024/09/14-14:07:40.794 894 Level-0 table #11: started
-2024/09/14-14:07:40.799 894 Level-0 table #11: 551 bytes OK
-2024/09/14-14:07:40.805 894 Delete type=0 #6
-2024/09/14-14:07:40.805 894 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

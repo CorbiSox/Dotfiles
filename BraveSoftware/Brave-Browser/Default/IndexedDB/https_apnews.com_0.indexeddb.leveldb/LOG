@@ -1,6 +1,0 @@
-2024/09/16-01:12:15.771 124e Creating DB /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_apnews.com_0.indexeddb.leveldb since it was missing.
-2024/09/16-01:12:15.773 124e Reusing MANIFEST /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_apnews.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/16-01:12:19.248 124e Level-0 table #5: started
-2024/09/16-01:12:19.250 124e Level-0 table #5: 849 bytes OK
-2024/09/16-01:12:19.252 124e Delete type=0 #3
-2024/09/16-01:12:19.252 124e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

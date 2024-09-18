@@ -1,6 +1,0 @@
-2024/09/17-22:46:51.505 1f6b Reusing MANIFEST /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/09/17-22:46:51.506 1f6b Recovering log #104
-2024/09/17-22:46:51.518 1f6b Reusing old log /home/tcsugarfoot/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000104.log 
-2024/09/17-22:46:58.107 1f6b Level-0 table #109: started
-2024/09/17-22:46:58.124 1f6b Level-0 table #109: 1271150 bytes OK
-2024/09/17-22:46:58.125 1f6b Delete type=0 #104

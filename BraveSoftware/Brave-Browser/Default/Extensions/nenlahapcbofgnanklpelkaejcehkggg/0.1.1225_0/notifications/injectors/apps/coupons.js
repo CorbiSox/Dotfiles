@@ -1,1 +1,0 @@
-(async function(){let{perfLog:t}=await import("../../../chunks/console-DAKGWJZP.js"),{injectNotificationScript:i}=await import("../../../chunks/injectNotificationScript-55JEV3O6.js");t("COUPON INJECTOR"),i("watch"),i("coupons"),i("mirageNotification"),i("dewey")})();
