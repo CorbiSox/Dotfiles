@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-exec .config/screenlayout/screenlayout.sh
+exec --no-startup-id .config/screenlayout/screenlayout.sh
 
 set $mod Mod4
 
@@ -43,8 +43,10 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id /usr/lib/gnome-settings-daemon/gsd-xsettings  
 exec --no-startup-id gnome-flashback
 
-gaps inner 15
-gaps outer 5
+# gaps inner 15
+# gaps outer 5
+# gaps top 30
+# gaps bottom 30
 # client.focused          #1E90FF #285577 #ffffff #1E90FF
 
 client.focused          #556B2F #556B2F #ffffff #1E90FF
@@ -82,10 +84,12 @@ bindsym $mod+Return exec alacritty
 bindsym Print exec --no-startup-id flameshot gui
 
 bindsym $mod+b exec firefox
-bindsym $mod+Shift+b exec brave-browser
+bindsym $mod+Shift+Return exec brave-browser
+bindsym $mod+m exec thunderbird
+bindsym $mod+Ctrl+f exec nemo
 
 # kill focused window
-bindsym $mod+Shift+q kill
+bindsym $mod+Delete kill
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec rofi -show drun

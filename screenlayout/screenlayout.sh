@@ -30,7 +30,7 @@ if [ "$monitor_count" -eq 2 ]; then
   fi
 
   # Set xrandr display configurations
-  if ! xrandr --output DP-1 --mode 3440x1440 --dpi 110 --rate 84.96 --pos 0x0 --output eDP-1 --mode 1680x1050 --dpi 178 --pos 3440x390 2>>"$LOG_FILE"; then
+  if ! xrandr --output DP-1 --mode 3440x1440 --dpi 110 --rate 84.96 --pos 0x0 --output eDP-1 --mode 1920x1200 --dpi 178 --pos 760x1440 2>>"$LOG_FILE"; then
     log_error "Failed to set xrandr configuration for dual monitors."
   fi
 
@@ -40,11 +40,31 @@ if [ "$monitor_count" -eq 2 ]; then
   fi
   
 # add polybar to dual screens
+  # polybar-msg cmd quit
+  # echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
+  # polybar top-primary &
+  # polybar top-secondary &
+
   polybar-msg cmd quit
   echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
-  polybar top-primary &
-  polybar top-secondary &
-  
+  polybar top-left-secondary &> /dev/null & disown
+  polybar top-center-secondary &> /dev/null & disown
+  polybar top-right-secondary &> /dev/null & disown
+  polybar bottom-left-secondary &> /dev/null & disown
+  polybar bottom-right-secondary &> /dev/null & disown
+
+  # set screen timeout to 1.5 hours
+  xset s 0 0 
+  xset dpms 600 0 0
+
+  # change gaps appropriate
+
+  i3-msg gaps inner all set 15
+  i3-msg gaps outer all set 5
+  i3-msg gaps top all set 30
+  i3-msg gaps bottom all set 30 
+ 
+ 
 elif [ "$monitor_count" -eq 1 ]; then
   # Single monitor setup
 
@@ -66,9 +86,22 @@ elif [ "$monitor_count" -eq 1 ]; then
 # add polybar to single screen
   polybar-msg cmd quit
   echo "---" | tee -a /tmp/polybar1.log /tmp/polybar2.log
-  polybar top &
+  polybar top-left &> /dev/null & disown
+  polybar top-center &> /dev/null & disown
+  polybar top-right &> /dev/null & disown
+  polybar bottom-left &> /dev/null & disown
+  polybar bottom-right &> /dev/null & disown
 
-else
+  # set screen timeout to 10 minutes
+  xset s off
+  xset dpms 0 0 600
+
+  # change gaps appropriate
+  i3-msg gaps inner all set 15
+  i3-msg gaps outer all set 5
+  i3-msg gaps top all set 30
+  i3-msg gaps bottom all set 30 
+ else
   log_error "No monitors detected or unhandled monitor count: $monitor_count."
   exit 1
 fi

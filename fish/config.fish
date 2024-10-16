@@ -8,7 +8,9 @@ neofetch
 
 alias nala="sudo nala"
 alias vsim="vsim &> /dev/null &; disown"
-alias edit="hx"
-alias suedit="sudo hx"
+alias vim="hx"
+alias suvim="sudo hx"
 alias ls="ls -lash --color=auto"
 alias discord="flatpak run com.discordapp.Discord &> /dev/null &; disown; exit"
+alias quartus="./intelFPGA_lite/20.1/quartus/bin/quartus &> /dev/null &; disown"
+alias searchWifi="sudo iwlist wlp0s20f3 scan | grep "ESSID""
