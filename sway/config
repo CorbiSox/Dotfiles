@@ -55,6 +55,15 @@ blur enable
 blur_passes 3
 blur_radius 4 
 corner_radius 10
+default_border pixel 2
+
+client.focused           #22311d #22311d #FFFFFF #4a6741 
+
+# client.focused          #00FF00 #22311d #000000 #00FF22
+client.unfocused        #555555 #555555 #FFFFFF #555555
+# client.urgent           #FF0000 #FF0000 #FFFFFF #FF0000
+# client.focused_inactive #CCCCCC #CCCCCC #000000 #CCCCCC
+
 
 ### Idle configuration
 #
@@ -220,16 +229,16 @@ mode "resize" {
     # right will grow the containers width
     # up will shrink the containers height
     # down will grow the containers height
-    bindsym $left resize shrink width 10px
-    bindsym $down resize grow height 10px
-    bindsym $up resize shrink height 10px
-    bindsym $right resize grow width 10px
+    bindsym $left resize shrink width 40px
+    bindsym $down resize grow height 40px
+    bindsym $up resize shrink height 40px
+    bindsym $right resize grow width 40px
 
     # Ditto, with arrow keys
-    bindsym Left resize shrink width 10px
-    bindsym Down resize grow height 10px
-    bindsym Up resize shrink height 10px
-    bindsym Right resize grow width 10px
+    bindsym Left resize shrink width 40px
+    bindsym Down resize grow height 40px
+    bindsym Up resize shrink height 40px
+    bindsym Right resize grow width 40px
 
     # Return to default mode
     bindsym Return mode "default"
