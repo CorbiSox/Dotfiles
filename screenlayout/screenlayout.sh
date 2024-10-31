@@ -59,13 +59,18 @@ if [ "$monitor_count" -eq 2 ]; then
 
   # change gaps appropriate
 
-  i3-msg gaps inner all set 15
-  i3-msg gaps outer all set 5
-  i3-msg gaps top all set 30
-  i3-msg gaps bottom all set 30 
- 
- 
-elif [ "$monitor_count" -eq 1 ]; then
+  i3-msg gaps inner all set 10
+  i3-msg gaps outer all set 5  
+  i3-msg gaps top all set 5  
+  i3-msg gaps bottom all set 5
+
+  i3-msg workspace 1
+  i3-msg gaps outer current set 5
+  i3-msg gaps inner current set 15
+  i3-msg gaps top current set 30
+  i3-msg gaps bottom current set 30
+    
+  elif [ "$monitor_count" -eq 1 ]; then
   # Single monitor setup
 
   # Update Xft.dpi

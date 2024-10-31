@@ -3,6 +3,8 @@ if status is-interactive
 end
 
 set -gx PATH ~/intelFPGA/20.1/modelsim_ase/bin/ $PATH
+set -gx PATH ~/intelFPGA_lite/20.1/quartus/bin/ $PATH
+set -gx PATH ~/Applications/ $PATH
 
 neofetch
 
@@ -12,5 +14,6 @@ alias vim="hx"
 alias suvim="sudo hx"
 alias ls="ls -lash --color=auto"
 alias discord="flatpak run com.discordapp.Discord &> /dev/null &; disown; exit"
-alias quartus="./intelFPGA_lite/20.1/quartus/bin/quartus &> /dev/null &; disown"
-alias searchWifi="sudo iwlist wlp0s20f3 scan | grep "ESSID""
+alias quartus="quartus &> /dev/null &; disown"
+alias cura="cura.AppImage &> /dev/null &; disown"
+alias searchWifi="sudo iwlist wlp0s20f3 scan | grep "ESSID\|Frequency""
