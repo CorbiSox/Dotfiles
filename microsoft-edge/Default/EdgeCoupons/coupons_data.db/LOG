@@ -1,0 +1,6 @@
+2024/11/04-11:38:30.600 d31de Reusing MANIFEST /home/tcsugarfoot/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/MANIFEST-000001
+2024/11/04-11:38:30.601 d31de Recovering log #3
+2024/11/04-11:38:30.601 d31de Reusing old log /home/tcsugarfoot/.config/microsoft-edge/Default/EdgeCoupons/coupons_data.db/000003.log 
+2024/11/04-11:38:38.068 d31df Level-0 table #5: started
+2024/11/04-11:38:38.084 d31df Level-0 table #5: 644090 bytes OK
+2024/11/04-11:38:38.090 d31df Delete type=0 #3
